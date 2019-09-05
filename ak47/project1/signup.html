@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<body>
+
+	<header>
+		<style >
+		body {background-size: cover; background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("hotelli.jpg");}
+		h1   {color: black;}
+		p    {color: black;}
+		ul{
+		list-style-type: none;
+		display: inline-block;
+		margin:0;
+		width: 70%;
+		text-align: center;
+		padding:0;
+		overflow: hidden;
+		background-color: transparent; 
+		}
+
+		li{
+			float:left;
+
+		}
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li a:hover{
+			background-color: #111111;
+		}
+	</style>
+		<div id="main">
+			<div class="logo">
+				<a href="royal1.html"><img src="logo.png" width="200" height="100"></a>
+			</div>
+			<div class="table">
+			<ul>
+				<li><a  class ="active" href="royal1.html">Home</a></li>
+				<li><a  href="bookings.html">Bookings</a></li>
+				<li><a  href="blogpost.html">Blog Post</a></li>
+				<li><a  href="login.html"> Login</a></li>
+				<li><a  href="signup.html">Sign Up</a></li>
+				<li><a  href="contactus.html">Contact Us</a></li>	
+				<li><a  href="aboutus.html">About Us</a></li>
+			</ul>
+		</div>
+		<div id="SignUp">
+			<form style="text-align: center;">
+				<input type="text" placeholder="Username.." size="35"required><br><br>
+				<input type="password" placeholder="Password.." size="35"required><br><br>
+				<input type="password" placeholder="Confirm Password.." size="35"required><br><br>
+				<input type="radio" name="gender" value="male" checked> Male
+  				<input type="radio" name="gender" value="female"> Female<br><br>
+				<input type="submit" value="Sign Up">
+				<input type="reset" name="Reset">
+			</form>
+		</div>	
+	</header>
+
+</body>
+</html>

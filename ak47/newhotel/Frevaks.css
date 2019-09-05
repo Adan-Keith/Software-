@@ -1,0 +1,63 @@
+body{
+
+	background-image: url(hotelli.jpg);
+}
+
+header{
+
+	
+	height: 75px;
+	
+}
+	
+	ul{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		overflow: hidden;
+		background-color: transparent; 
+		}
+
+		li{
+			float:left;
+		}
+		li a{
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li a:hover{
+			background-color: #111111;
+			color: red;
+		}
+		li a.active{
+			background-color: black;
+			color: red;
+		}
+
+	ul.services{
+		list-style-type: none;
+		margin: 0;
+		padding:0;
+		overflow: hidden;
+		background-color: gray;
+		width: 100px;
+	}
+
+		.services{
+			display: block;
+			color: #000;
+			padding: 8px;
+			text-decoration: none;
+		}
+
+		.services li a:hover {
+			background-color: black;
+			color: red;
+		}
+		li a.active {
+			background-color: black;
+			color: red;
+		}

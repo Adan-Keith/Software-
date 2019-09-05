@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Here</title>
+	<style >
+		body { background-size: cover; background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("hotelli.jpg");}
+		h1   {color: white;}
+		p    {color: white;}
+		ul{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		overflow: hidden;
+		background-color: transparent; 
+		}
+
+		li{
+			float:left;
+		}
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li a:hover{
+			background-color: #111111;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="main">
+			<a href="royal1.html"><img src="logo.png" width="200" height="100"></a>
+		</div>
+		<ul>
+			<li><a class ="active" href="royal1.html">Home</a></li>
+			<li><a href="bookings.html">Bookings</a></li>
+			<li><a href="blogpost.html">Blog Post</a></li>
+			<li><a href="login.html">Login</a></li>	
+			<li><a href="signup.html">Sign Up</a></li>	
+			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+				
+		</ul>
+		<div id="Login">
+			<form style="text-align: center;">
+				<input type="text" placeholder="Username" size="35"required><br><br>
+				<input type="text" placeholder="Password" size="35"required><br><br>
+				<input type="button" onclick =" alert('Login Succeeded')"value="Login ">
+			</form>
+		</div>
+		</header>
+</body>
+</html>
